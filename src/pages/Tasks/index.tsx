@@ -67,7 +67,7 @@ export function Tasks() {
     setTasks((allTasks) => [...allTasks, response.data])
 
     titleRef.current.value = ""
-    descriptionRef.current.value = ""
+    //descriptionRef.current.value = ""
     customerIdRef.current.value = "" 
   }
 
